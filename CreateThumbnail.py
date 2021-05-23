@@ -4,7 +4,8 @@ import sys
 import uuid
 from PIL import Image
 import PIL.Image
-     
+
+print("Today" + date)     
 s3_client = boto3.client('s3')
      
 def resize_image(image_path, resized_path):
