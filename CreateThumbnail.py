@@ -1,7 +1,4 @@
 import boto3
-import os
-import sys
-import uuid
 from PIL import Image
 import PIL.Image
      
